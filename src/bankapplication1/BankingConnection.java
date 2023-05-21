@@ -15,7 +15,7 @@ public class BankingConnection {
     public static Connection connect(){
         String URL = "jdbc:mysql://127.0.0.1:3306/mydb1";
         String username = "root";
-        String password = "Teamsy2346";
+        String password = "";
         Connection connection = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
